@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A24BD1E71EB47DA800F6A0EB"
-               BuildableName = "LocateStarbucks.app"
+               BuildableName = "I &lt;3 Coffee.app"
                BlueprintName = "LocateStarbucks"
                ReferencedContainer = "container:LocateStarbucks.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A24BD1E71EB47DA800F6A0EB"
-            BuildableName = "LocateStarbucks.app"
+            BuildableName = "I &lt;3 Coffee.app"
             BlueprintName = "LocateStarbucks"
             ReferencedContainer = "container:LocateStarbucks.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A24BD1E71EB47DA800F6A0EB"
-            BuildableName = "LocateStarbucks.app"
+            BuildableName = "I &lt;3 Coffee.app"
             BlueprintName = "LocateStarbucks"
             ReferencedContainer = "container:LocateStarbucks.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A24BD1E71EB47DA800F6A0EB"
-            BuildableName = "LocateStarbucks.app"
+            BuildableName = "I &lt;3 Coffee.app"
             BlueprintName = "LocateStarbucks"
             ReferencedContainer = "container:LocateStarbucks.xcodeproj">
          </BuildableReference>

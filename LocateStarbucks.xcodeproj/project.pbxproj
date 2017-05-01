@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28D66058B1AEAE92EC128EDA /* libPods-LocateStarbucks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A27068DDC070E8C6063461 /* libPods-LocateStarbucks.a */; };
 		A24BD1EC1EB47DA800F6A0EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24BD1EB1EB47DA800F6A0EB /* AppDelegate.swift */; };
-		A24BD1EE1EB47DA800F6A0EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24BD1ED1EB47DA800F6A0EB /* ViewController.swift */; };
 		A24BD1F11EB47DA800F6A0EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24BD1EF1EB47DA800F6A0EB /* Main.storyboard */; };
 		A24BD1F41EB47DA800F6A0EB /* LocateStarbucks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A24BD1F21EB47DA800F6A0EB /* LocateStarbucks.xcdatamodeld */; };
 		A24BD1F61EB47DA800F6A0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24BD1F51EB47DA800F6A0EB /* Assets.xcassets */; };
 		A24BD1F91EB47DA800F6A0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24BD1F71EB47DA800F6A0EB /* LaunchScreen.storyboard */; };
 		A24BD2041EB47DA800F6A0EB /* LocateStarbucksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24BD2031EB47DA800F6A0EB /* LocateStarbucksTests.swift */; };
 		A24BD20F1EB47DA800F6A0EB /* LocateStarbucksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24BD20E1EB47DA800F6A0EB /* LocateStarbucksUITests.swift */; };
+		A27260991EB59AE6001D1735 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27260981EB59AE6001D1735 /* ListTableViewController.swift */; };
+		A272609B1EB59F39001D1735 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A272609A1EB59F39001D1735 /* ListTableViewCell.swift */; };
+		A27481721EB5DBA3009A1412 /* MapDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27481711EB5DBA3009A1412 /* MapDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A24BD1E81EB47DA800F6A0EB /* LocateStarbucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocateStarbucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFAC9ED86BCFA48E959C39D /* Pods-LocateStarbucks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateStarbucks.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocateStarbucks/Pods-LocateStarbucks.release.xcconfig"; sourceTree = "<group>"; };
+		4D85809ABC04AA7F9B0BD3FF /* Pods-LocateStarbucks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateStarbucks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocateStarbucks/Pods-LocateStarbucks.debug.xcconfig"; sourceTree = "<group>"; };
+		A24BD1E81EB47DA800F6A0EB /* I <3 Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I <3 Coffee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24BD1EB1EB47DA800F6A0EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A24BD1ED1EB47DA800F6A0EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A24BD1F01EB47DA800F6A0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A24BD1F31EB47DA800F6A0EB /* LocateStarbucks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LocateStarbucks.xcdatamodel; sourceTree = "<group>"; };
 		A24BD1F51EB47DA800F6A0EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		A24BD20A1EB47DA800F6A0EB /* LocateStarbucksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocateStarbucksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24BD20E1EB47DA800F6A0EB /* LocateStarbucksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateStarbucksUITests.swift; sourceTree = "<group>"; };
 		A24BD2101EB47DA800F6A0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27260981EB59AE6001D1735 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		A272609A1EB59F39001D1735 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		A27481711EB5DBA3009A1412 /* MapDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDetailViewController.swift; sourceTree = "<group>"; };
+		A2A27068DDC070E8C6063461 /* libPods-LocateStarbucks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LocateStarbucks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D66058B1AEAE92EC128EDA /* libPods-LocateStarbucks.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19CAB9F0A4B20F389469FA53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2A27068DDC070E8C6063461 /* libPods-LocateStarbucks.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E438803CD2904FA5631749A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D85809ABC04AA7F9B0BD3FF /* Pods-LocateStarbucks.debug.xcconfig */,
+				2EFAC9ED86BCFA48E959C39D /* Pods-LocateStarbucks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A24BD1DF1EB47DA800F6A0EB = {
 			isa = PBXGroup;
 			children = (
@@ -83,13 +109,15 @@
 				A24BD2021EB47DA800F6A0EB /* LocateStarbucksTests */,
 				A24BD20D1EB47DA800F6A0EB /* LocateStarbucksUITests */,
 				A24BD1E91EB47DA800F6A0EB /* Products */,
+				7E438803CD2904FA5631749A /* Pods */,
+				19CAB9F0A4B20F389469FA53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A24BD1E91EB47DA800F6A0EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A24BD1E81EB47DA800F6A0EB /* LocateStarbucks.app */,
+				A24BD1E81EB47DA800F6A0EB /* I <3 Coffee.app */,
 				A24BD1FF1EB47DA800F6A0EB /* LocateStarbucksTests.xctest */,
 				A24BD20A1EB47DA800F6A0EB /* LocateStarbucksUITests.xctest */,
 			);
@@ -100,7 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				A24BD1EB1EB47DA800F6A0EB /* AppDelegate.swift */,
-				A24BD1ED1EB47DA800F6A0EB /* ViewController.swift */,
+				A27260961EB599DB001D1735 /* View Controllers */,
 				A24BD1EF1EB47DA800F6A0EB /* Main.storyboard */,
 				A24BD1F51EB47DA800F6A0EB /* Assets.xcassets */,
 				A24BD1F71EB47DA800F6A0EB /* LaunchScreen.storyboard */,
@@ -128,6 +156,24 @@
 			path = LocateStarbucksUITests;
 			sourceTree = "<group>";
 		};
+		A27260961EB599DB001D1735 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A27481711EB5DBA3009A1412 /* MapDetailViewController.swift */,
+				A27260971EB599FA001D1735 /* Table View */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A27260971EB599FA001D1735 /* Table View */ = {
+			isa = PBXGroup;
+			children = (
+				A272609A1EB59F39001D1735 /* ListTableViewCell.swift */,
+				A27260981EB59AE6001D1735 /* ListTableViewController.swift */,
+			);
+			name = "Table View";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A24BD2131EB47DA800F6A0EB /* Build configuration list for PBXNativeTarget "LocateStarbucks" */;
 			buildPhases = (
+				EE9ACC41E6AC2C0EEBD6123D /* [CP] Check Pods Manifest.lock */,
 				A24BD1E41EB47DA800F6A0EB /* Sources */,
 				A24BD1E51EB47DA800F6A0EB /* Frameworks */,
 				A24BD1E61EB47DA800F6A0EB /* Resources */,
+				E3861163239F252ACD25A287 /* [CP] Embed Pods Frameworks */,
+				97D5E8E6AF3BE8F4844132ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,7 +194,7 @@
 			);
 			name = LocateStarbucks;
 			productName = LocateStarbucks;
-			productReference = A24BD1E81EB47DA800F6A0EB /* LocateStarbucks.app */;
+			productReference = A24BD1E81EB47DA800F6A0EB /* I <3 Coffee.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A24BD1FE1EB47DA800F6A0EB /* LocateStarbucksTests */ = {
@@ -196,7 +245,13 @@
 				TargetAttributes = {
 					A24BD1E71EB47DA800F6A0EB = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7NHDFX7768;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					A24BD1FE1EB47DA800F6A0EB = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -257,13 +312,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		97D5E8E6AF3BE8F4844132ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocateStarbucks/Pods-LocateStarbucks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3861163239F252ACD25A287 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocateStarbucks/Pods-LocateStarbucks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE9ACC41E6AC2C0EEBD6123D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A24BD1E41EB47DA800F6A0EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A24BD1EE1EB47DA800F6A0EB /* ViewController.swift in Sources */,
+				A27481721EB5DBA3009A1412 /* MapDetailViewController.swift in Sources */,
 				A24BD1F41EB47DA800F6A0EB /* LocateStarbucks.xcdatamodeld in Sources */,
+				A27260991EB59AE6001D1735 /* ListTableViewController.swift in Sources */,
+				A272609B1EB59F39001D1735 /* ListTableViewCell.swift in Sources */,
 				A24BD1EC1EB47DA800F6A0EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,24 +521,28 @@
 		};
 		A24BD2141EB47DA800F6A0EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D85809ABC04AA7F9B0BD3FF /* Pods-LocateStarbucks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7NHDFX7768;
 				INFOPLIST_FILE = LocateStarbucks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quintanar.Locate.LocateStarbucks;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "I <3 Coffee";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		A24BD2151EB47DA800F6A0EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFAC9ED86BCFA48E959C39D /* Pods-LocateStarbucks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7NHDFX7768;
 				INFOPLIST_FILE = LocateStarbucks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quintanar.Locate.LocateStarbucks;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "I <3 Coffee";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -511,6 +620,7 @@
 				A24BD2151EB47DA800F6A0EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A24BD2161EB47DA800F6A0EB /* Build configuration list for PBXNativeTarget "LocateStarbucksTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +629,7 @@
 				A24BD2181EB47DA800F6A0EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A24BD2191EB47DA800F6A0EB /* Build configuration list for PBXNativeTarget "LocateStarbucksUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +638,7 @@
 				A24BD21B1EB47DA800F6A0EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
