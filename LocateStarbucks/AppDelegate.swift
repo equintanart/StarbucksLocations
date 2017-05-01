@@ -16,18 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        //let localManager = CLLocationManager()
-        //localManager.requestAlwaysAuthorization()
         
         // Google Services API
         GMSServices.provideAPIKey("AIzaSyDO2R00m0i9VQzr2fcvmXmGFb7iKEsnoJ0")
         GMSPlacesClient.provideAPIKey("AIzaSyDO2R00m0i9VQzr2fcvmXmGFb7iKEsnoJ0")
-        
-        
         return true
     }
 
